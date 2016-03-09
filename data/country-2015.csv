@@ -1,40 +1,40 @@
-country,number
-Armenia ,1
-Australia ,1
-Bangladesh ,3
-Brazil ,4
-Burma ,1
-Canada ,16
-Chile ,1
-China ,781
-Colombia ,1
-Costa Rica ,1
-Egypt ,1
-Germany ,2
-Hong Kong ,4
-India ,112
-Indonesia ,10
-Ireland ,1
-Italy ,1
-Japan ,2
-Macau ,1
-Malaysia ,8
-Mexico ,2
-Mongolia ,1
-Netherlands ,1
-New Zealand ,1
-Pakistan ,5
-Philippines ,2
-Portugal ,2
-Russia ,1
-Saudi Arabia ,2
-Singapore ,15
-South Korea ,103
-Switzerland ,1
-Taiwan ,18
-Thailand ,4
-Turkey ,4
-Ukraine ,1
-United Kingdom ,2
-Uruguay ,1
-Vietnam ,2
+country,number,code
+Armenia,1,ARM
+Australia,1,AUS
+Bangladesh,3,BGD
+Brazil,4,BRA
+Burma (Myanmar),1,MMR
+Canada,16,CAN
+Chile,1,CHL
+China,781,CHN
+Colombia,1,COL
+Costa Rica,1,CRI
+Egypt,1,EGY
+Germany,2,DEU
+Hong Kong,4,HKG
+India,112,IND
+Indonesia,10,IDN
+Ireland,1,IRL
+Italy,1,ITA
+Japan,2,JPN
+Macau,1,MAC
+Malaysia,8,MYS
+Mexico,2,MEX
+Mongolia,1,MNG
+Netherlands,1,NLD
+New Zealand,1,NZL
+Pakistan,5,PAK
+Philippines,2,PHL
+Portugal,2,PRT
+Russia,1,RUS
+Saudi Arabia,2,SAU
+Singapore,15,SGP
+"Korea, South",103,KOR
+Switzerland,1,CHE
+Taiwan,18,TWN
+Thailand,4,THA
+Turkey,4,TUR
+Ukraine,1,UKR
+United Kingdom,2,GBR
+Uruguay,1,URY
+Vietnam,2,VNM

@@ -1,41 +1,41 @@
-country,number
-Australia ,3
-Bahrain ,1
-Bangladesh ,2
-Belgium ,1
-Brazil ,4
-Canada ,15
-Chile ,1
-China ,432
-Costa Rica ,1
-Denmark ,1
-Ecuador ,1
-Egypt ,1
-France ,1
-Honduras ,1
-Hong Kong ,6
-India ,101
-Indonesia ,13
-Iran ,1
-Italy ,1
-Japan ,2
-Kazakhstan ,7
-"Korea, South ",211
-Kyrgyzstan ,1
-Macau ,1
-Malaysia ,6
-Nepal ,2
-New Zealand ,1
-Nigeria ,3
-Pakistan ,5
-Singapore ,9
-Sri Lanka ,1
-Syria ,1
-Taiwan ,42
-Thailand ,12
-Trinidad & Tobago ,1
-Turkey ,6
-United Kingdom ,3
-Venezuela ,1
-Vietnam ,1
-Zimbabwe ,1
+country,number,code
+Australia,3,AUS
+Bahrain,1,BHR
+Bangladesh,2,BGD
+Belgium,1,BEL
+Brazil,4,BRA
+Canada,15,CAN
+Chile,1,CHL
+China,432,CHN
+Costa Rica,1,CRI
+Denmark,1,DNK
+Ecuador,1,ECU
+Egypt,1,EGY
+France,1,FRA
+Honduras,1,HND
+Hong Kong,6,HKG
+India,101,IND
+Indonesia,13,IDN
+Iran,1,IRN
+Italy,1,ITA
+Japan,2,JPN
+Kazakhstan,7,KAZ
+"Korea, South",211,KOR
+Kyrgyzstan,1,KGZ
+Macau,1,MAC
+Malaysia,6,MYS
+Nepal,2,NPL
+New Zealand,1,NZL
+Nigeria,3,NGA
+Pakistan,5,PAK
+Singapore,9,SGP
+Sri Lanka,1,LKA
+Syria,1,SYR
+Taiwan,42,TWN
+Thailand,12,THA
+Trinidad and Tobago,1,TTO
+Turkey,6,TUR
+United Kingdom,3,GBR
+Venezuela,1,VEN
+Vietnam,1,VNM
+Zimbabwe,1,ZWE

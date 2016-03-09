@@ -1,38 +1,38 @@
-country,number
-Angola ,1
-Australia ,4
-Bangladesh ,2
-Barbados ,1
-Brazil ,2
-Canada ,15
-China ,135
-Ecuador ,1
-Egypt ,1
-Germany ,3
-Honduras ,1
-Hong Kong ,7
-India ,103
-Indonesia ,10
-Iran ,1
-Israel ,1
-Japan ,6
-"Korea, South ",311
-Macau ,1
-Malaysia ,6
-Mexico ,2
-Nigeria ,3
-Norway ,1
-Pakistan ,5
-Peru ,1
-Philippines ,1
-Russia ,2
-Singapore ,20
-South Africa ,2
-Spain ,1
-Taiwan ,40
-Thailand ,13
-Turkey ,1
-Ukraine ,1
-United Arab Emirates ,1
-United Kingdom ,5
-Venezuela ,2
+country,number,code
+Angola,1,AGO
+Australia,4,AUS
+Bangladesh,2,BGD
+Barbados,1,BRB
+Brazil,2,BRA
+Canada,15,CAN
+China,135,CHN
+Ecuador,1,ECU
+Egypt,1,EGY
+Germany,3,DEU
+Honduras,1,HND
+Hong Kong,7,HKG
+India,103,IND
+Indonesia,10,IDN
+Iran,1,IRN
+Israel,1,ISR
+Japan,6,JPN
+"Korea, South",311,KOR
+Macau,1,MAC
+Malaysia,6,MYS
+Mexico,2,MEX
+Nigeria,3,NGA
+Norway,1,NOR
+Pakistan,5,PAK
+Peru,1,PER
+Philippines,1,PHL
+Russia,2,RUS
+Singapore,20,SGP
+South Africa,2,ZAF
+Spain,1,ESP
+Taiwan,40,TWN
+Thailand,13,THA
+Turkey,1,TUR
+Ukraine,1,UKR
+United Arab Emirates,1,ARE
+United Kingdom,5,GBR
+Venezuela,2,VEN

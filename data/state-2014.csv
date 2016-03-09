@@ -1,45 +1,45 @@
-state,number
-Alabama ,5
-Alaska ,2
-Arizona ,10
-Arkansas ,6
-California ,220
-Colorado ,17
-Connecticut ,8
-Delaware ,2
-District of Columbia ,3
-Florida ,25
-Georgia ,20
-Idaho ,3
-Illinois ,4927
-Indiana ,21
-Iowa ,10
-Kansas ,5
-Kentucky ,12
-Louisiana ,2
-Maryland ,14
-Massachusetts ,22
-Michigan ,22
-Minnesota ,23
-Mississippi ,1
-Missouri ,33
-Nebraska ,3
-Nevada ,2
-New Hampshire ,1
-New Jersey ,79
-New Mexico ,4
-New York ,63
-North Carolina ,6
-Ohio ,33
-Oregon ,6
-Pennsylvania ,19
-Puerto Rico ,4
-Rhode Island ,2
-South Carolina ,2
-South Dakota ,2
-Tennessee ,10
-Texas ,35
-Utah ,4
-Virginia ,36
-Washington ,22
-Wisconsin ,16
+state,number,fips
+Alabama,5,01
+Alaska,2,02
+Arizona,10,04
+Arkansas,6,05
+California,220,06
+Colorado,17,08
+Connecticut,8,09
+Delaware,2,10
+District of Columbia,3,11
+Florida,25,12
+Georgia,20,13
+Idaho,3,16
+Illinois,4927,17
+Indiana,21,18
+Iowa,10,19
+Kansas,5,20
+Kentucky,12,21
+Louisiana,2,22
+Maryland,14,24
+Massachusetts,22,25
+Michigan,22,26
+Minnesota,23,27
+Mississippi,1,28
+Missouri,33,29
+Nebraska,3,31
+Nevada,2,32
+New Hampshire,1,33
+New Jersey,79,34
+New Mexico,4,35
+New York,63,36
+North Carolina,6,37
+Ohio,33,39
+Oregon,6,41
+Pennsylvania,19,42
+Puerto Rico,4,72
+Rhode Island,2,44
+South Carolina,2,45
+South Dakota,2,46
+Tennessee,10,47
+Texas,35,48
+Utah,4,49
+Virginia,36,51
+Washington,22,53
+Wisconsin,16,55

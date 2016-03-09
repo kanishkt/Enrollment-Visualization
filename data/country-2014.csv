@@ -1,40 +1,40 @@
-country,number
-Australia ,2
-Bahrain ,1
-Bangladesh ,1
-Bolivia ,1
-Brazil ,3
-Canada ,11
-China ,658
-Ecuador ,4
-Egypt ,1
-France ,1
-Germany ,2
-Guatemala ,2
-Hong Kong ,6
-Hungary ,1
-India ,126
-Indonesia ,4
-Israel ,1
-Japan ,4
-Jordan ,1
-Kazakhstan ,2
-Lebanon ,1
-Malaysia ,9
-Mexico ,2
-Mongolia ,1
-New Zealand ,2
-Nigeria ,2
-Norway ,1
-Pakistan ,4
-Peru ,1
-Philippines ,1
-Russia ,3
-Saudi Arabia ,1
-Singapore ,21
-South Korea ,132
-Spain ,1
-Sudan ,1
-Sweden ,1
-Taiwan ,18
-Thailand ,8
+country,number,code
+Australia,2,AUS
+Bahrain,1,BHR
+Bangladesh,1,BGD
+Bolivia,1,BOL
+Brazil,3,BRA
+Canada,11,CAN
+China,658,CHN
+Ecuador,4,ECU
+Egypt,1,EGY
+France,1,FRA
+Germany,2,DEU
+Guatemala,2,GTM
+Hong Kong,6,HKG
+Hungary,1,HUN
+India,126,IND
+Indonesia,4,IDN
+Israel,1,ISR
+Japan,4,JPN
+Jordan,1,JOR
+Kazakhstan,2,KAZ
+Lebanon,1,LBN
+Malaysia,9,MYS
+Mexico,2,MEX
+Mongolia,1,MNG
+New Zealand,2,NZL
+Nigeria,2,NGA
+Norway,1,NOR
+Pakistan,4,PAK
+Peru,1,PER
+Philippines,1,PHL
+Russia,3,RUS
+Saudi Arabia,1,SAU
+Singapore,21,SGP
+"Korea, South",132,KOR
+Spain,1,ESP
+Sudan,1,SDN
+Sweden,1,SWE
+Taiwan,18,TWN
+Thailand,8,THA

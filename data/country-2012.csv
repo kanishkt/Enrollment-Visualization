@@ -1,45 +1,45 @@
-country,number
-Argentina ,1
-Australia ,3
-Azerbaijan ,1
-Bangladesh ,2
-Belgium ,2
-Brazil ,3
-Burma (Myanmar) ,1
-Canada ,17
-Chile ,1
-China ,506
-Costa Rica ,2
-Egypt ,3
-France ,2
-Germany ,1
-Ghana ,1
-Great Britain ,1
-Greece ,1
-Hong Kong ,3
-India ,99
-Indonesia ,11
-Japan ,4
-Jordan ,1
-Kazakhstan ,3
-"Korea, South ",147
-Kuwait ,1
-Lebanon ,1
-Malaysia ,14
-Mexico ,1
-Mongolia ,1
-Nepal ,1
-Nigeria ,4
-Norway ,1
-Pakistan ,8
-Philippines ,2
-Russia ,1
-Saudi Arabia ,1
-Singapore ,16
-Sweden ,1
-Switzerland ,2
-Taiwan ,13
-Thailand ,10
-Turkey ,9
-United Kingdom ,1
-Vietnam ,3
+country,number,code
+Argentina,1,ARG
+Australia,3,AUS
+Azerbaijan,1,AZE
+Bangladesh,2,BGD
+Belgium,2,BEL
+Brazil,3,BRA
+Burma (Myanmar),1,MMR
+Canada,17,CAN
+Chile,1,CHL
+China,506,CHN
+Costa Rica,2,CRI
+Egypt,3,EGY
+France,2,FRA
+Germany,1,DEU
+Ghana,1,GHA
+Great Britain,1,GBR
+Greece,1,GRC
+Hong Kong,3,HKG
+India,99,IND
+Indonesia,11,IDN
+Japan,4,JPN
+Jordan,1,JOR
+Kazakhstan,3,KAZ
+"Korea, South",147,KOR
+Kuwait,1,KWT
+Lebanon,1,LBN
+Malaysia,14,MYS
+Mexico,1,MEX
+Mongolia,1,MNG
+Nepal,1,NPL
+Nigeria,4,NGA
+Norway,1,NOR
+Pakistan,8,PAK
+Philippines,2,PHL
+Russia,1,RUS
+Saudi Arabia,1,SAU
+Singapore,16,SGP
+Sweden,1,SWE
+Switzerland,2,CHE
+Taiwan,13,TWN
+Thailand,10,THA
+Turkey,9,TUR
+United Kingdom,1,GBR
+Vietnam,3,VNM
