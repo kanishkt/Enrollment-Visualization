@@ -41,7 +41,7 @@ def fix_states(state_codes, year):
 def get_country_codes():
 	country_codes = dict()
 
-	with open('data/codefiles/country.csv', 'rb') as f:
+	with open('static/data/codefiles/country.csv', 'rb') as f:
 		reader = csv.reader(f)
 		for row in reader:
 			code = row[0]
@@ -82,7 +82,7 @@ def fix_countries(country_codes, year):
 			writer = csv.writer(f)
 			writer.writerows(temp)
 
-def condense_files(state_codes):
+def condense_states(state_codes):
 	all_data = dict()
 	for state, code in state_codes.items():
 		all_data[state] = ['US'+code]
@@ -116,13 +116,48 @@ def condense_files(state_codes):
 			row.extend(values)
 			writer.writerow(row)
 
+def condense_countries(country_codes):
+	all_data = dict()
+	for country, code in country_codes.items():
+		all_data[country] = [code]
+	row_one = ['country', 'code']
+
+	for year in range(2006, 2016):
+		year = str(year)
+		row_one.append(year)
+		filename = 'static/data/country' + '-' + year + '.csv'
+		temp = list()
+		with open(filename, 'rb') as f:
+			next(f)
+			reader = csv.reader(f)
+			for row in reader:
+				country = row[0]
+				number = row[1]
+
+				all_data[country].append(number)
+				temp.append(country)
+
+		for country in country_codes.keys():
+			if country not in temp:
+				all_data[country].append('0')
+
+	with open('static/data/country-all.csv', 'wb') as f:
+		writer = csv.writer(f)
+		writer.writerow(row_one)
+		for country, values in all_data.items():
+			row = [country]
+			row.extend(values)
+			writer.writerow(row)
+
 if __name__ == "__main__":
 
-	state_codes = get_state_codes()
+	#state_codes = get_state_codes()
 	#for year in range(2006, 2016):
 		#fix_states(state_codes, str(year))
 
-	#country_codes = get_country_codes()
+	country_codes = get_country_codes()
 	#for year in range(2006, 2016):
 	#	fix_countries(country_codes, str(year))
-	condense_files(state_codes)
+	
+	#condense_states(state_codes)
+	condense_countries(country_codes)
