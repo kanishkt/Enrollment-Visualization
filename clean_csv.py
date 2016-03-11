@@ -1,9 +1,10 @@
 import csv
+import collections
 
 def get_state_codes():
 	state_codes = dict()
 
-	with open('data/codefiles/state.txt', 'rb') as f:
+	with open('static/data/codefiles/state.txt', 'rb') as f:
 		next(f) #skip first line
 		for line in f:
 			parts = line.split('|') #file is pipe delimited
@@ -81,12 +82,47 @@ def fix_countries(country_codes, year):
 			writer = csv.writer(f)
 			writer.writerows(temp)
 
+def condense_files(state_codes):
+	all_data = dict()
+	for state, code in state_codes.items():
+		all_data[state] = ['US'+code]
+	row_one = ['state', 'fips']
+
+	for year in range(2006, 2016):
+		year = str(year)
+		row_one.append(year)
+		filename = 'static/data/state' + '-' + year + '.csv'
+		temp = list()
+		with open(filename, 'rb') as f:
+			next(f)
+			reader = csv.reader(f)
+			for row in reader:
+				state = row[0]
+				number = row[1]
+				#fips = row[2]
+
+				all_data[state].append(number)
+				temp.append(state)
+
+		for state in state_codes.keys():
+			if state not in temp:
+				all_data[state].append('0')
+
+	with open('static/data/state-all.csv', 'wb') as f:
+		writer = csv.writer(f)
+		writer.writerow(row_one)
+		for state, values in all_data.items():
+			row = [state]
+			row.extend(values)
+			writer.writerow(row)
+
 if __name__ == "__main__":
 
-	#state_codes = get_state_codes()
+	state_codes = get_state_codes()
 	#for year in range(2006, 2016):
 		#fix_states(state_codes, str(year))
 
-	country_codes = get_country_codes()
-	for year in range(2006, 2016):
-		fix_countries(country_codes, str(year))
+	#country_codes = get_country_codes()
+	#for year in range(2006, 2016):
+	#	fix_countries(country_codes, str(year))
+	condense_files(state_codes)
