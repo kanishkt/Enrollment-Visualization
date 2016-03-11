@@ -61,7 +61,7 @@
 				.attr("height", h);
 
 	//Load in revenue data
-	d3.csv("../data/county-2006.csv", function(data) {
+	d3.csv("./data/county-2006.csv", function(data) {
 		//set input domain for color scale
 		color.domain ([
 			d3.min(data, function(d) {return +d[percent]; }),

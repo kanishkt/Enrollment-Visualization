@@ -3,8 +3,9 @@ text {
   font-size: 12px; }
 
 .background {
-  fill: none;
-  pointer-events: all; }
+    fill: none;
+    pointer-events: all;
+}
 
 .unit {
   cursor: pointer;
