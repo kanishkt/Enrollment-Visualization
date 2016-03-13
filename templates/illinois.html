@@ -1,139 +1,211 @@
-{% extends "layout.html" %}
-{% block body %}
-<style type="text/css">
-	div.tooltip {
-		visibility:hidden;
-		position:absolute;
-		background: #ffffff;
-		width: 155px;
-		height: 10px;
-		padding-bottom: .5em;
-		padding-top: .25em;
-		padding-left: .5em;
-		font-size: 12px;
-		font-family: Helvetica, Arial, sans-serif;
-		text-align: left;
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Illinois by county</title>
+		<script type="text/javascript" src="//d3js.org/d3.v3.min.js"></script>
+		<style type="text/css">
 
-		border: 1px solid;
-		pointer-events: none;		
-	}
-</style>
+			body {
+				margin: 0;
+				background-color: lightGray;
+				font-family: Helvetica, Arial, sans-serif;
+			}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
-<script src="../static/d3-geomap/js/d3.geomap.js" type="text/javascript"></script>
+			svg {
+				background-color: white;
+			}
 
-<div id="container">
-	<center><h2>Enrollment by County</h2></center>
-	<div id="map"></div>
-</div>
+			h1 {
+				font-size: 20px;
+				margin: 0;
+			}
 
-<div class="tooltip"></div>
+			p {
+				font-size: 12px;
+				margin: 5px 0 5px 0;
+			}
 
-<script type="text/javascript">
+			#container {
+				width: 550px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 50px;
+				padding: 50px;
+				background-color: white;
+			}
 
-	//crop revenue to map
-	var percent = "percent"
+			div.tooltip {
+				visibility:hidden;
+				position:absolute;
+				background: #ffffff;
+				width: 155px;
+				height: 10px;
+				padding-bottom: .5em;
+				padding-top: .25em;
+				padding-left: .5em;
+				font-size: 12px;
+				font-family: Helvetica, Arial, sans-serif;
+				text-align: left;
 
-	//Width and height
-	var w = 500;
-	var h = 800;
-	var padding = [ 20, 10, 30, 35 ];  //Top, right, bottom, left
+				border: 1px solid;
+				pointer-events: none;
 
-	//Define map projection
-	var projection = d3.geo.albers()
-					   .center([ 6.5, 40 ])
-					   .translate([ w/2, h/2 ])
-					   .scale([ w * 15 ]);
-
-
-	//Define path generator
-	var path = d3.geo.path()
-				 .projection(projection);
-
-	//define quantize scale to sort data values into areas of color
-	var color = d3.scale.quantize()
-				  .range([ "#CCFF99", "#CCFF66", "#99FF00", "#00FF00"]);
-
-	//Create SVG
-	var svg = d3.select("#map")
-				.append("svg")
-				.attr("width", w)
-				.attr("height", h);
-
-	//Load in revenue data
-	d3.csv("../static/data/county-2006.csv", function(data) {
-		//set input domain for color scale
-		color.domain ([
-			d3.min(data, function(d) {return +d[percent]; }),
-			d3.max(data, function(d) {return +d[percent]; })
-			]);
-
-		var nameToPercent = {}
-		data.forEach(function(d){
-			nameToPercent[d.county.toUpperCase()] = +d.percent
-		})
-
-	//Load in GeoJSON data
-	d3.json("../static/data/illinois-counties.geojson", function(json) {
-
-		json.features.forEach(function(d){
-			var name = d.properties.COUNTY_NAM
-			var dataValue = nameToPercent[name]
-			d.properties.percent = dataValue
-		})
-		
-		//Bind data and create one path per GeoJSON feature
-		svg.selectAll("path")
-		   .data(json.features)
-		   .enter()
-		   .append("path")
-		   .attr("d", path)
-		   .attr("stroke", "black")
-		   .attr("stroke-width", .75 )
-		   .style("fill", function(d) {
-
-		   		//get data value
-		   		var value = d.properties.percent
-
-		   		if (value) {
-		   			//if value exists...
-		   			return color(value);
-		   		}
-
-		   	});
+			}
 
 
-		var tooltip = d3.select("div.tooltip");
+		</style>
+	</head>
+	<body>
 
-		//Create tooltips
-		svg.selectAll("path")
-			.data(json.features)
-			.on("mouseover", function() {
-				return tooltip.style("visibility", "visible");
+		<div id="container">
+			<h1>Enrollment by county</h1>
+		</div>
+
+		<div class="tooltip"></div>
+
+		<script type="text/javascript">
+
+			//crop revenue to map
+			var percent = "percent"
+
+			//Width and height
+			var w = 500;
+			var h = 800;
+			var padding = [ 20, 10, 30, 35 ];  //Top, right, bottom, left
+
+			//Define map projection
+			var projection = d3.geo.albers()
+								   	.center([ 6.5, 40 ])
+								  	.translate([ w/2, h/2 ])
+								  	.scale([ w * 15 ]);
+
+
+			//Define path generator
+			var path = d3.geo.path()
+							 .projection(projection);
+
+			//define quantize scale to sort data values into areas of color
+			var color = d3.scale.quantize()
+						.range([ "#CCFF99", "#CCFF66", "#99FF00", "#00FF00"]);
+
+			//Create SVG
+			var svg = d3.select("#container")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h);
+
+			//Load in revenue data
+			d3.csv("../static/data/county_data/county-2006.csv", function(data) {
+					//set input domain for color scale
+					color.domain ([
+						d3.min(data, function(d) {return +d[percent]; }), 500
+						//d3.max(data, function(d) {return +d[percent]; })
+						]);
+
+			var nameToPercent = {}
+			data.forEach(function(d){
+				nameToPercent[d.county.replace(/\s/g, '').toUpperCase()] = +d.percent
 			})
-			.on("mousemove", function(d) {
+			console.log(nameToPercent)
+			//Load in GeoJSON data
+			d3.json("../static/data/mapshaper_illinois.json", function(json) {
 
-				//debugger
-
-				tooltip.html('')
-
-				tooltip
-				.style("top", (d3.event.pageY + 16) + "px")
-				.style("left", (d3.event.pageX + 16) + "px")
-
-				tooltip
-				.append('div')
-				.text(d.properties.COUNTY_NAM + ": " + d.properties.percent + "%")
-					// .html('<div class="countyName">'+d.properties.COUNTY_NAM+'</div>' + ": " + d.properties.percent + " percent");
-
+				json.features.forEach(function(d){
+					var name = d.properties.COUNTY_NAM
+					var dataValue = nameToPercent[name]
+					d.properties.percent = dataValue
 				})
-			.on("mouseout", function() {
-				return tooltip.style("visibility", "hidden");
-			})
 
-		}); //end d3.json()
+				//Merge the revenue data and GEOjson into a single array
+				//Loop through once for each revenue data value
+				// for (var i = 0; i < data.length; i++) {
+				// 	debugger
 
-	}); //end d3.csv
+				// 	//grab county name
+				// 	var dataCounty = data[i].COUNTY_NAM;
 
-</script>
-{% endblock %}
+				// 	//grab data value, and convert from string to float
+				// 	var dataValue = +data[i][percent];
+
+				// 	//find the corresponding county inside GeoJSON
+				// 	for (var j = 0; j < json.features.length; j++) {
+
+				// 		//link to the FIPS code
+				// 		var jsonCounty = json.features[j].properties.CO_FIPS;
+
+				// 		if (dataCounty == jsonCounty) {
+
+				// 			//copy the data value into the GeoJSON
+				// 			json.features[j].properties.percent = dataValue;
+
+				// 			//Stop looking through the JSON
+				// 			break;
+				// 		}
+				// 	}
+				// }
+
+				//console.log(json);
+
+				//Bind data and create one path per GeoJSON feature
+				svg.selectAll("path")
+				   .data(json.features)
+				   .enter()
+				   .append("path")
+				   .attr("d", path)
+				   .attr("stroke", "black")
+				   .attr("stroke-width", .75 )
+				   .style("fill", function(d) {
+
+				   		//get data value
+				   		var value = d.properties.percent
+
+				   		if (value) {
+				   			//if value exists...
+				   			console.log(value);
+				   			//this is really bad, fix the percentages
+				   			if (value > 499)
+				   			{
+				   				value = 499
+				   			}
+
+				   			return color(value);
+				   		}
+
+				   	});
+
+
+				var tooltip = d3.select("div.tooltip");
+
+				//Create tooltips
+				svg.selectAll("path")
+	   			.data(json.features)
+	   			.on("mouseover", function() {
+	   				return tooltip.style("visibility", "visible");
+	   			})
+	   			.on("mousemove", function(d) {
+
+	   				//debugger
+
+	   				tooltip.html('')
+
+	   				tooltip
+	   					.style("top", (d3.event.pageY + 16) + "px")
+	   					.style("left", (d3.event.pageX + 16) + "px")
+
+	   				tooltip
+	   					.append('div')
+	   					.text(d.properties.COUNTY_NAM + ": " + d.properties.percent + "%")
+	   					// .html('<div class="countyName">'+d.properties.COUNTY_NAM+'</div>' + ": " + d.properties.percent + " percent");
+
+	   			})
+	   			.on("mouseout", function() {
+	   				return tooltip.style("visibility", "hidden");
+	   			})
+				}); //end d3.json()
+
+			}); //end d3.csv
+
+		</script>
+	</body>
+</html>
