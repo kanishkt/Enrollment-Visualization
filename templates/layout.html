@@ -2,12 +2,18 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
 <title>Student Enrollment Map</title>
 
 <script src="http://d3js.org/d3.v2.js"></script>
 
- <div class="container">
+<div class="container">
+  <div class="btn-group btn-group-justified" role="group" aria-label="...">
+    <a class="btn btn-info" href="/us" role="button">US Map</a>
+    <a class="btn btn-info" href="/world" role="button">World Map</a>
+    <a class="btn btn-info" href="/illinois" role="button">Illinois Map</a>
+  </div>
+</div>
+<!--
   <div class="row">
     <div class="col-sm-2" style="margin-left: 310px;">
      <a class="btn btn-primary" href="/us" role="button">US Map</a>
@@ -19,7 +25,6 @@
      <a class="btn btn-primary" href="/illinois" role="button">Illinois Map</a>
     </div>
   </div>
-</div>
-</div>
+-->
 
 {% block body %}{% endblock %}

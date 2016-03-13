@@ -7,7 +7,6 @@ app = Flask(__name__)
 def index():
     return render_template('us.html')
 
-
 @app.route('/us')
 def us():
     return render_template('us.html')
@@ -21,6 +20,7 @@ def world():
 @app.route('/illinois')
 def illinois():
     return render_template('illinois.html')
+    #return render_template('test.html')
 
 
 if __name__ == '__main__':
