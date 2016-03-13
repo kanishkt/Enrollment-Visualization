@@ -61,7 +61,7 @@
 				.attr("height", h);
 
 	//Load in revenue data
-	d3.csv("./data/county-2006.csv", function(data) {
+	d3.csv("../static/data/county-2006.csv", function(data) {
 		//set input domain for color scale
 		color.domain ([
 			d3.min(data, function(d) {return +d[percent]; }),
@@ -74,7 +74,7 @@
 		})
 
 	//Load in GeoJSON data
-	d3.json("mapshaper_illinois.json", function(json) {
+	d3.json("../static/data/illinois-counties.geojson", function(json) {
 
 		json.features.forEach(function(d){
 			var name = d.properties.COUNTY_NAM
