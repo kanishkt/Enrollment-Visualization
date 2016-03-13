@@ -26,10 +26,13 @@
     var map = d3.geomap.choropleth()
 		.geofile("../static/d3-geomap/topojson/countries/USA.json")
 		.projection(d3.geo.albersUsa)
+		.colors(colorbrewer.YlGnBu[5])
 		.column('2006') //year
 		.unitId('fips') //state code
 		.scale(1000)
-		.legend(true);
+		.legend(true)
+		.domain([1,100])
+		.format(d3.format('f'));
 
 	d3.csv("../static/data/state-all.csv", function(error, data) {
 		d3.select('#map')
@@ -43,10 +46,13 @@
    var map = d3.geomap.choropleth()
 		.geofile("../static/d3-geomap/topojson/countries/USA.json")
 		.projection(d3.geo.albersUsa)
+		.colors(colorbrewer.YlGnBu[5])
 		.column(value) //year
 		.unitId('fips') //state code
 		.scale(1000)
-		.legend(true);
+		.legend(true)
+		.domain([1,100])
+		.format(d3.format('f'));
 
 	d3.csv("../static/data/state-all.csv", function(error, data) {
 		d3.select('#map')
