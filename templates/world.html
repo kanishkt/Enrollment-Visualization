@@ -2,7 +2,7 @@
 {% block body %}
 
 <div class="container" id="main">
-	<h1>Enrollment by Country</h1>
+	<center><h2>Enrollment by Country</h2></center>
     <div id="slider7"></div>
     <div id="map"></div>
 </div>
@@ -16,20 +16,38 @@
 <script src="../static/d3-geomap/js/d3.geomap.js" type="text/javascript"></script>
 
 <script type="text/javascript">
-    d3.select('#slider7').call(d3.slider().axis(true).min(2006).max(2015).step(1));
 
-	var map = d3.geomap.choropleth()
-	    .geofile('../static/d3-geomap/topojson/world/countries.json')
-	    .colors(colorbrewer.YlGnBu[9])
-	    .column('2009')
-	    .legend(true)
-	    .unitId('code');
+    var map = d3.geomap.choropleth()
+    .geofile('../static/d3-geomap/topojson/world/countries.json')
+    .colors(colorbrewer.YlGnBu[9])
+    .column("2006")
+    .legend(true)
+    .unitId('code');
 
-	d3.csv('../static/data/country-all.csv', function(error, data) {
-	    d3.select('#map')
-	        .datum(data)
-	        .call(map.draw, map);
-	});
+    d3.select('#slider7').call(d3.slider().axis(true).min(2006).max(2015).step(1).on("slide", function(evt, value) {
+
+    $('#map').empty();
+
+    var map = d3.geomap.choropleth()
+    .geofile('../static/d3-geomap/topojson/world/countries.json')
+    .colors(colorbrewer.YlGnBu[9])
+    .column(value)
+    .legend(true)
+    .unitId('code');
+    d3.csv('../static/data/country-all.csv', function(error, data) {
+    d3.select('#map')
+        .datum(data)
+        .call(map.draw, map);
+    });
+
+}));
+
+ d3.csv('../static/data/country-all.csv', function(error, data) {
+    d3.select('#map')
+        .datum(data)
+        .call(map.draw, map);
+    });
+
 </script>
 
 {% endblock %}
