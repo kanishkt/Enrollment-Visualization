@@ -1,58 +1,58 @@
 state,fips,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015
-Mississippi,US28,0,0,1,1,0,1,3,0,1,1
-Northern Mariana Islands,US69,0,0,0,0,0,0,0,0,0,0
-U.S. Virgin Islands,US78,0,0,0,0,0,0,0,0,0,0
-Oklahoma,US40,5,1,0,6,3,2,4,5,0,4
-Wyoming,US56,0,1,0,1,0,0,0,0,0,0
+Mississippi,US28,zero,zero,1,1,zero,1,3,zero,1,1
+Northern Mariana Islands,US69,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+U.S. Virgin Islands,US78,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Oklahoma,US40,5,1,zero,6,3,2,4,5,zero,4
+Wyoming,US56,zero,1,zero,1,zero,zero,zero,zero,zero,zero
 Minnesota,US27,9,12,11,13,12,18,16,8,23,21
 Illinois,US17,6323,6059,5969,5768,5433,5569,5219,5317,4927,5490
-Georgia,US13,6,0,10,13,9,18,10,15,20,18
-Arkansas,US05,2,1,0,3,4,2,2,2,6,1
+Georgia,US13,6,zero,10,13,9,18,10,15,20,18
+Arkansas,US05,2,1,zero,3,4,2,2,2,6,1
 New Mexico,US35,1,1,1,3,1,1,1,1,4,1
 Ohio,US39,37,25,32,36,26,31,34,34,33,38
 Indiana,US18,17,12,21,11,11,14,17,12,21,12
 Maryland,US24,17,17,20,13,17,22,16,20,14,22
-Louisiana,US22,2,1,0,0,4,1,3,7,2,0
-Idaho,US16,1,1,0,1,1,2,1,1,3,0
+Louisiana,US22,2,1,zero,zero,4,1,3,7,2,zero
+Idaho,US16,1,1,zero,1,1,2,1,1,3,zero
 Arizona,US04,8,2,6,3,5,3,8,6,10,9
 Iowa,US19,7,4,11,4,10,9,3,5,10,5
 Michigan,US26,17,9,21,12,13,15,15,27,22,15
 Kansas,US20,9,11,11,5,6,7,3,7,5,2
-Utah,US49,0,0,2,0,0,1,1,0,4,2
+Utah,US49,zero,zero,2,zero,zero,1,1,zero,4,2
 Virginia,US51,13,17,15,11,19,21,29,50,36,33
-Oregon,US41,3,0,3,5,4,3,7,6,6,3
+Oregon,US41,3,zero,3,5,4,3,7,6,6,3
 Connecticut,US09,3,4,12,9,10,10,4,16,8,14
-Montana,US30,0,1,0,0,0,0,0,0,0,0
+Montana,US30,zero,1,zero,zero,zero,zero,zero,zero,zero,zero
 California,US06,40,35,40,28,63,112,157,176,220,280
 Massachusetts,US25,9,20,24,21,24,27,31,29,22,31
-West Virginia,US54,3,0,1,2,0,0,4,1,0,0
-South Carolina,US45,2,1,1,2,0,2,1,3,2,1
+West Virginia,US54,3,zero,1,2,zero,zero,4,1,zero,zero
+South Carolina,US45,2,1,1,2,zero,2,1,3,2,1
 New Hampshire,US33,4,2,2,2,2,2,4,2,1,5
-Vermont,US50,1,1,0,0,0,1,1,0,0,2
-Delaware,US10,3,2,0,1,0,0,3,1,2,1
-North Dakota,US38,0,1,0,0,0,0,0,0,0,0
+Vermont,US50,1,1,zero,zero,zero,1,1,zero,zero,2
+Delaware,US10,3,2,zero,1,zero,zero,3,1,2,1
+North Dakota,US38,zero,1,zero,zero,zero,zero,zero,zero,zero,zero
 Pennsylvania,US42,6,6,18,13,12,17,15,19,19,20
-Puerto Rico,US72,0,0,0,0,0,2,0,3,4,1
+Puerto Rico,US72,zero,zero,zero,zero,zero,2,zero,3,4,1
 Florida,US12,6,14,17,16,14,19,30,24,25,23
-Alaska,US02,0,1,1,0,3,1,1,0,2,0
+Alaska,US02,zero,1,1,zero,3,1,1,zero,2,zero
 Kentucky,US21,7,3,5,4,5,11,4,8,12,6
-Hawaii,US15,1,2,1,2,1,1,1,5,0,1
-Nebraska,US31,7,0,4,2,4,5,3,1,3,1
+Hawaii,US15,1,2,1,2,1,1,1,5,zero,1
+Nebraska,US31,7,zero,4,2,4,5,3,1,3,1
 Missouri,US29,44,32,33,32,36,34,40,32,33,33
 Wisconsin,US55,13,11,12,19,15,22,16,9,16,16
-Alabama,US01,1,3,3,4,3,3,0,2,5,4
+Alabama,US01,1,3,3,4,3,3,zero,2,5,4
 New York,US36,14,23,20,23,29,27,41,41,63,44
-American Samoa,US60,0,0,0,0,0,0,0,0,0,0
-South Dakota,US46,0,0,1,0,0,3,0,0,2,0
+American Samoa,US60,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+South Dakota,US46,zero,zero,1,zero,zero,3,zero,zero,2,zero
 Colorado,US08,11,3,6,2,13,7,18,10,17,12
 New Jersey,US34,37,34,61,44,34,73,68,86,79,81
-Guam,US66,0,0,0,0,0,1,0,0,0,0
+Guam,US66,zero,zero,zero,zero,zero,1,zero,zero,zero,zero
 Washington,US53,11,4,2,6,7,8,10,16,22,14
-U.S. Minor Outlying Islands,US74,0,0,0,0,0,0,0,0,0,0
+U.S. Minor Outlying Islands,US74,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
 North Carolina,US37,5,3,10,4,6,5,8,7,6,5
 Tennessee,US47,4,4,9,9,6,12,9,10,10,8
-District of Columbia,US11,4,2,3,2,1,0,0,0,3,0
+District of Columbia,US11,4,2,3,2,1,zero,zero,zero,3,zero
 Texas,US48,21,24,24,23,22,36,34,32,35,42
-Nevada,US32,3,3,3,0,2,4,2,1,2,2
-Maine,US23,0,0,1,1,0,1,3,0,0,0
-Rhode Island,US44,0,1,1,1,0,1,0,0,2,0
+Nevada,US32,3,3,3,zero,2,4,2,1,2,2
+Maine,US23,zero,zero,1,1,zero,1,3,zero,zero,zero
+Rhode Island,US44,zero,1,1,1,zero,1,zero,zero,2,zero

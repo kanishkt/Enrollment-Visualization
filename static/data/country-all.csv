@@ -1,251 +1,251 @@
 country,code,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015
 Canada,CAN,10,15,15,15,15,9,17,13,11,16
-Sao Tome and Principe,STP,0,0,0,0,0,0,0,0,0,0
-Guernsey,GGY,0,0,0,0,0,0,0,0,0,0
-Turkmenistan,TKM,0,0,0,0,0,0,0,0,0,0
-Montenegro,MNE,0,0,0,0,0,0,0,0,0,0
-Lithuania,LTU,0,0,0,0,0,0,0,0,0,0
-Cambodia,KHM,0,0,0,0,0,0,0,0,0,0
-"Saint Helena, Ascension and Tristan da Cunha",SHN,0,0,0,0,0,0,0,0,0,0
-Ethiopia,ETH,0,0,0,0,0,0,0,0,0,0
-Aruba,ABW,0,0,0,0,0,0,0,0,0,0
-Sri Lanka,LKA,0,0,0,0,1,0,0,2,0,0
-Swaziland,SWZ,0,0,0,0,0,0,0,0,0,0
-Argentina,ARG,2,0,0,1,0,1,1,1,0,0
-Bolivia,BOL,0,0,0,1,0,0,0,0,1,0
-Cameroon,CMR,0,0,0,0,0,0,0,0,0,0
-Burkina Faso,BFA,0,0,0,0,0,0,0,0,0,0
-Ghana,GHA,0,0,0,0,0,0,1,1,0,0
-Saudi Arabia,SAU,1,0,0,0,0,0,1,2,1,2
-American Samoa,ASM,0,0,0,0,0,0,0,0,0,0
-Montserrat,MSR,0,0,0,0,0,0,0,0,0,0
-United States Minor Outlying Islands,UMI,0,0,0,0,0,0,0,0,0,0
-Cocos (Keeling) Islands,CCK,0,0,0,0,0,0,0,0,0,0
-Faroe Islands,FRO,0,0,0,0,0,0,0,0,0,0
-Guatemala,GTM,0,1,0,0,0,0,0,0,2,0
-Bosnia and Herzegovina,BIH,0,0,0,0,0,0,0,0,0,0
-Guinea,GIN,0,0,0,0,0,0,0,0,0,0
-Burma (Myanmar),MMR,0,0,0,0,0,0,1,0,0,1
-Germany,DEU,0,1,3,0,0,0,1,0,2,2
-"Bonaire, Sint Eustatius and Saba",BES,0,0,0,0,0,0,0,0,0,0
-"Virgin Islands, British",VGB,0,0,0,0,0,0,0,0,0,0
-Dominica,DMA,0,0,0,0,0,0,0,0,0,0
-Australia,AUS,0,5,4,1,3,3,3,0,2,1
-Liberia,LBR,0,0,0,0,0,0,0,0,0,0
-Maldives,MDV,0,0,0,0,0,0,0,0,0,0
-Armenia,ARM,0,0,0,0,0,0,0,0,0,1
+Sao Tome and Principe,STP,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Guernsey,GGY,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Turkmenistan,TKM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Montenegro,MNE,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Lithuania,LTU,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Cambodia,KHM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+"Saint Helena, Ascension and Tristan da Cunha",SHN,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Ethiopia,ETH,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Aruba,ABW,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Sri Lanka,LKA,zero,zero,zero,zero,1,zero,zero,2,zero,zero
+Swaziland,SWZ,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Argentina,ARG,2,zero,zero,1,zero,1,1,1,zero,zero
+Bolivia,BOL,zero,zero,zero,1,zero,zero,zero,zero,1,zero
+Cameroon,CMR,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Burkina Faso,BFA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Ghana,GHA,zero,zero,zero,zero,zero,zero,1,1,zero,zero
+Saudi Arabia,SAU,1,zero,zero,zero,zero,zero,1,2,1,2
+American Samoa,ASM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Montserrat,MSR,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+United States Minor Outlying Islands,UMI,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Cocos (Keeling) Islands,CCK,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Faroe Islands,FRO,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Guatemala,GTM,zero,1,zero,zero,zero,zero,zero,zero,2,zero
+Bosnia and Herzegovina,BIH,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Guinea,GIN,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Burma (Myanmar),MMR,zero,zero,zero,zero,zero,zero,1,zero,zero,1
+Germany,DEU,zero,1,3,zero,zero,zero,1,zero,2,2
+"Bonaire, Sint Eustatius and Saba",BES,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+"Virgin Islands, British",VGB,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Dominica,DMA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Australia,AUS,zero,5,4,1,3,3,3,zero,2,1
+Liberia,LBR,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Maldives,MDV,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Armenia,ARM,zero,zero,zero,zero,zero,zero,zero,zero,zero,1
 Pakistan,PAK,2,1,5,3,5,3,8,3,4,5
-Oman,OMN,0,0,0,0,0,0,0,0,0,0
-Costa Rica,CRI,0,0,0,0,1,0,2,0,0,1
-Cabo Verde,CPV,0,0,0,0,0,0,0,0,0,0
-Christmas Island,CXR,0,0,0,0,0,0,0,0,0,0
-Gabon,GAB,0,0,0,0,0,0,0,0,0,0
-Niue,NIU,0,0,0,0,0,0,0,0,0,0
-Monaco,MCO,0,0,0,0,0,0,0,0,0,0
-Wallis and Futuna,WLF,0,0,0,0,0,0,0,0,0,0
-New Zealand,NZL,0,1,0,0,1,1,0,3,2,1
-Yemen,YEM,0,0,0,0,0,0,0,0,0,0
-Jersey,JEY,0,0,0,0,0,0,0,0,0,0
-Jamaica,JAM,0,0,0,0,0,0,0,0,0,0
-Albania,ALB,0,0,0,0,0,0,0,0,0,0
-Samoa,WSM,0,0,0,0,0,0,0,0,0,0
-Macau,MAC,1,0,1,0,1,0,0,0,0,1
-Norfolk Island,NFK,0,0,0,0,0,0,0,0,0,0
-United Arab Emirates,ARE,0,0,1,0,0,0,0,1,0,0
-Guam,GUM,0,0,0,0,0,0,0,0,0,0
+Oman,OMN,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Costa Rica,CRI,zero,zero,zero,zero,1,zero,2,zero,zero,1
+Cabo Verde,CPV,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Christmas Island,CXR,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Gabon,GAB,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Niue,NIU,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Monaco,MCO,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Wallis and Futuna,WLF,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+New Zealand,NZL,zero,1,zero,zero,1,1,zero,3,2,1
+Yemen,YEM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Jersey,JEY,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Jamaica,JAM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Albania,ALB,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Samoa,WSM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Macau,MAC,1,zero,1,zero,1,zero,zero,zero,zero,1
+Norfolk Island,NFK,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+United Arab Emirates,ARE,zero,zero,1,zero,zero,zero,zero,1,zero,zero
+Guam,GUM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
 India,IND,48,57,103,75,101,109,99,134,126,112
-Azerbaijan,AZE,0,1,0,0,0,0,1,0,0,0
-Lesotho,LSO,0,0,0,0,0,0,0,0,0,0
-Saint Vincent and the Grenadines,VCT,0,0,0,0,0,0,0,0,0,0
-Kenya,KEN,1,0,0,0,0,0,0,0,0,0
-Tajikistan,TJK,0,0,0,0,0,0,0,0,0,0
-Greenland,GRL,0,0,0,0,0,0,0,0,0,0
-Turkey,TUR,0,0,1,7,6,6,9,19,0,4
-Afghanistan,AFG,0,0,0,0,0,0,0,0,0,0
-Fiji,FJI,0,0,0,0,0,0,0,0,0,0
-Bangladesh,BGD,0,0,2,1,2,0,2,2,1,3
-Eritrea,ERI,0,0,0,0,0,0,0,0,0,0
-Solomon Islands,SLB,0,0,0,0,0,0,0,0,0,0
-Saint Lucia,LCA,0,0,0,0,0,0,0,0,0,0
-San Marino,SMR,0,0,0,0,0,0,0,0,0,0
-Mongolia,MNG,0,0,0,0,0,1,1,0,1,1
-France,FRA,0,0,0,0,1,0,2,2,1,0
-"Macedonia, the former Yugoslav Republic of",MKD,0,0,0,0,0,0,0,0,0,0
-Rwanda,RWA,0,0,0,0,0,0,0,0,0,0
-Slovakia,SVK,0,0,0,0,0,0,0,0,0,0
-Somalia,SOM,0,0,0,0,0,0,0,0,0,0
-Peru,PER,0,1,1,0,0,0,0,0,1,0
-Vanuatu,VUT,0,0,0,0,0,0,0,0,0,0
-Nauru,NRU,0,0,0,0,0,0,0,0,0,0
-Norway,NOR,0,0,1,0,0,0,1,1,1,0
-Malawi,MWI,0,0,0,0,0,0,0,0,0,0
-Cook Islands,COK,0,0,0,0,0,0,0,0,0,0
-Benin,BEN,0,0,0,0,0,0,0,0,0,0
-"Congo, the Democratic Republic of the",COD,0,0,0,0,0,0,0,0,0,0
-Western Sahara,ESH,0,0,0,0,0,0,0,0,0,0
-Cuba,CUB,0,0,0,0,0,0,0,0,0,0
+Azerbaijan,AZE,zero,1,zero,zero,zero,zero,1,zero,zero,zero
+Lesotho,LSO,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Saint Vincent and the Grenadines,VCT,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Kenya,KEN,1,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Tajikistan,TJK,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Greenland,GRL,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Turkey,TUR,zero,zero,1,7,6,6,9,19,zero,4
+Afghanistan,AFG,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Fiji,FJI,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Bangladesh,BGD,zero,zero,2,1,2,zero,2,2,1,3
+Eritrea,ERI,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Solomon Islands,SLB,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Saint Lucia,LCA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+San Marino,SMR,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Mongolia,MNG,zero,zero,zero,zero,zero,1,1,zero,1,1
+France,FRA,zero,zero,zero,zero,1,zero,2,2,1,zero
+"Macedonia, the former Yugoslav Republic of",MKD,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Rwanda,RWA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Slovakia,SVK,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Somalia,SOM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Peru,PER,zero,1,1,zero,zero,zero,zero,zero,1,zero
+Vanuatu,VUT,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Nauru,NRU,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Norway,NOR,zero,zero,1,zero,zero,zero,1,1,1,zero
+Malawi,MWI,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Cook Islands,COK,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Benin,BEN,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+"Congo, the Democratic Republic of the",COD,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Western Sahara,ESH,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Cuba,CUB,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
 United States of America,USA,6742,6418,6455,6184,5892,6189,5901,6059,5764,6328
-Saint Kitts and Nevis,KNA,0,0,0,0,0,0,0,0,0,0
-Togo,TGO,0,0,0,0,0,0,0,0,0,0
-Heard Island and McDonald Islands,HMD,0,0,0,0,0,0,0,0,0,0
+Saint Kitts and Nevis,KNA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Togo,TGO,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Heard Island and McDonald Islands,HMD,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
 China,CHN,18,40,135,318,432,549,506,679,658,781
-"Micronesia, Federated States of",FSM,0,0,0,0,0,0,0,0,0,0
-Antigua and Barbuda,ATG,0,0,0,0,0,0,0,0,0,0
-Dominican Republic,DOM,0,0,0,0,0,0,0,1,0,0
-Ukraine,UKR,0,0,1,0,0,0,0,1,0,1
-Bahrain,BHR,0,0,0,0,1,0,0,0,1,0
-Tonga,TON,0,0,0,0,0,0,0,0,0,0
-Cayman Islands,CYM,0,0,0,0,0,0,0,0,0,0
-Libya,LBY,0,0,0,0,0,0,0,0,0,0
-Finland,FIN,0,0,0,0,0,0,0,0,0,0
-Central African Republic,CAF,0,0,0,0,0,0,0,0,0,0
-Mauritius,MUS,0,0,0,0,0,0,0,0,0,0
-Liechtenstein,LIE,0,0,0,0,0,0,0,0,0,0
-Vietnam,VNM,0,0,0,1,1,1,3,6,0,2
-Mali,MLI,0,0,0,0,0,1,0,0,0,0
-Russia,RUS,0,0,2,0,0,1,1,2,3,1
-Bulgaria,BGR,0,0,0,0,0,0,0,1,0,0
-"Palestine, State of",PSE,0,0,0,0,0,0,0,0,0,0
-Romania,ROU,0,0,0,1,0,0,0,0,0,0
-Curaçao,CUW,0,0,0,0,0,0,0,0,0,0
-Angola,AGO,0,0,1,0,0,0,0,0,0,0
-French Southern Territories,ATF,0,0,0,0,0,0,0,0,0,0
-Portugal,PRT,0,1,0,0,0,0,0,1,0,2
-South Africa,ZAF,0,0,2,0,0,2,0,0,0,0
-Tokelau,TKL,0,0,0,0,0,0,0,0,0,0
-Cyprus,CYP,0,1,0,0,0,0,0,0,0,0
-South Georgia and the South Sandwich Islands,SGS,0,0,0,0,0,0,0,0,0,0
-Sweden,SWE,0,0,0,0,0,0,1,0,1,0
+"Micronesia, Federated States of",FSM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Antigua and Barbuda,ATG,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Dominican Republic,DOM,zero,zero,zero,zero,zero,zero,zero,1,zero,zero
+Ukraine,UKR,zero,zero,1,zero,zero,zero,zero,1,zero,1
+Bahrain,BHR,zero,zero,zero,zero,1,zero,zero,zero,1,zero
+Tonga,TON,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Cayman Islands,CYM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Libya,LBY,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Finland,FIN,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Central African Republic,CAF,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Mauritius,MUS,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Liechtenstein,LIE,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Vietnam,VNM,zero,zero,zero,1,1,1,3,6,zero,2
+Mali,MLI,zero,zero,zero,zero,zero,1,zero,zero,zero,zero
+Russia,RUS,zero,zero,2,zero,zero,1,1,2,3,1
+Bulgaria,BGR,zero,zero,zero,zero,zero,zero,zero,1,zero,zero
+"Palestine, State of",PSE,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Romania,ROU,zero,zero,zero,1,zero,zero,zero,zero,zero,zero
+CuraÃ§ao,CUW,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Angola,AGO,zero,zero,1,zero,zero,zero,zero,zero,zero,zero
+French Southern Territories,ATF,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Portugal,PRT,zero,1,zero,zero,zero,zero,zero,1,zero,2
+South Africa,ZAF,zero,zero,2,zero,zero,2,zero,zero,zero,zero
+Tokelau,TKL,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Cyprus,CYP,zero,1,zero,zero,zero,zero,zero,zero,zero,zero
+South Georgia and the South Sandwich Islands,SGS,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Sweden,SWE,zero,zero,zero,zero,zero,zero,1,zero,1,zero
 Malaysia,MYS,23,31,6,4,6,6,14,4,9,8
-Austria,AUT,0,0,0,0,0,0,0,1,0,0
-Mozambique,MOZ,0,0,0,0,0,0,0,0,0,0
-Uganda,UGA,0,0,0,0,0,0,0,0,0,0
-Japan,JPN,2,0,6,4,2,2,4,6,4,2
-Niger,NER,0,0,0,0,0,0,0,0,0,0
-Isle of Man,IMN,0,0,0,0,0,0,0,0,0,0
-Brazil,BRA,1,0,2,0,4,1,3,3,3,4
-Saint Martin (French part),MAF,0,0,0,0,0,0,0,0,0,0
-Pitcairn,PCN,0,0,0,0,0,0,0,0,0,0
-Kuwait,KWT,0,1,0,0,0,1,1,0,0,0
-Panama,PAN,0,0,0,0,0,0,0,0,0,0
-Guyana,GUY,0,0,0,0,0,0,0,0,0,0
-Qatar,QAT,0,0,0,0,0,0,0,1,0,0
-Luxembourg,LUX,0,0,0,0,0,0,0,0,0,0
-"Virgin Islands, U.S.",VIR,0,0,0,0,0,0,0,0,0,0
-Bahamas,BHS,0,0,0,0,0,0,0,1,0,0
-Great Britain,GBR,0,0,0,0,0,0,1,0,0,0
-Gibraltar,GIB,0,0,0,0,0,0,0,0,0,0
-Ireland,IRL,0,0,0,0,0,0,0,0,0,1
-Italy,ITA,0,0,0,0,1,0,0,0,0,1
-Nigeria,NGA,1,0,3,1,3,3,4,5,2,0
-Ecuador,ECU,0,0,1,0,1,0,0,4,4,0
-Czech Republic,CZE,0,0,0,0,0,0,0,0,0,0
-Brunei,BRN,0,2,0,0,0,0,0,0,0,0
-Belarus,BLR,0,0,0,0,0,0,0,0,0,0
-Iran,IRN,0,0,1,0,1,0,0,0,0,0
-Algeria,DZA,0,0,0,0,0,0,0,0,0,0
-Slovenia,SVN,0,0,0,0,0,0,0,0,0,0
-El Salvador,SLV,0,0,0,1,0,0,0,0,0,0
-Tuvalu,TUV,0,0,0,0,0,0,0,0,0,0
-Gambia,GMB,0,0,0,0,0,0,0,0,0,0
-Saint Pierre and Miquelon,SPM,0,0,0,0,0,0,0,0,0,0
-Marshall Islands,MHL,0,0,0,0,0,0,0,0,0,0
-Chile,CHL,0,0,0,0,1,0,1,1,0,1
-Puerto Rico,PRI,0,0,0,0,0,0,0,0,0,0
-Belgium,BEL,0,0,0,0,1,0,2,0,0,0
-Kiribati,KIR,0,0,0,0,0,0,0,0,0,0
-Haiti,HTI,0,0,0,0,0,0,0,0,0,0
-Belize,BLZ,0,0,0,0,0,0,0,0,0,0
+Austria,AUT,zero,zero,zero,zero,zero,zero,zero,1,zero,zero
+Mozambique,MOZ,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Uganda,UGA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Japan,JPN,2,zero,6,4,2,2,4,6,4,2
+Niger,NER,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Isle of Man,IMN,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Brazil,BRA,1,zero,2,zero,4,1,3,3,3,4
+Saint Martin (French part),MAF,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Pitcairn,PCN,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Kuwait,KWT,zero,1,zero,zero,zero,1,1,zero,zero,zero
+Panama,PAN,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Guyana,GUY,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Qatar,QAT,zero,zero,zero,zero,zero,zero,zero,1,zero,zero
+Luxembourg,LUX,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+"Virgin Islands, U.S.",VIR,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Bahamas,BHS,zero,zero,zero,zero,zero,zero,zero,1,zero,zero
+Great Britain,GBR,zero,zero,zero,zero,zero,zero,1,zero,zero,zero
+Gibraltar,GIB,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Ireland,IRL,zero,zero,zero,zero,zero,zero,zero,zero,zero,1
+Italy,ITA,zero,zero,zero,zero,1,zero,zero,zero,zero,1
+Nigeria,NGA,1,zero,3,1,3,3,4,5,2,zero
+Ecuador,ECU,zero,zero,1,zero,1,zero,zero,4,4,zero
+Czech Republic,CZE,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Brunei,BRN,zero,2,zero,zero,zero,zero,zero,zero,zero,zero
+Belarus,BLR,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Iran,IRN,zero,zero,1,zero,1,zero,zero,zero,zero,zero
+Algeria,DZA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Slovenia,SVN,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+El Salvador,SLV,zero,zero,zero,1,zero,zero,zero,zero,zero,zero
+Tuvalu,TUV,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Gambia,GMB,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Saint Pierre and Miquelon,SPM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Marshall Islands,MHL,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Chile,CHL,zero,zero,zero,zero,1,zero,1,1,zero,1
+Puerto Rico,PRI,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Belgium,BEL,zero,zero,zero,zero,1,zero,2,zero,zero,zero
+Kiribati,KIR,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Haiti,HTI,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Belize,BLZ,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
 Hong Kong,HKG,8,6,7,4,6,3,3,1,6,4
-Sierra Leone,SLE,0,0,0,0,0,0,0,0,0,0
-Georgia,GEO,0,0,0,0,0,0,0,0,0,0
-Lao People's Democratic Republic,LAO,0,0,0,0,0,0,0,0,0,0
-Denmark,DNK,0,0,0,0,1,0,0,0,0,0
-Philippines,PHL,4,1,1,3,0,2,2,1,1,2
-Morocco,MAR,0,0,0,0,0,0,0,2,0,0
-Namibia,NAM,0,0,0,0,0,0,0,0,0,0
-French Polynesia,PYF,0,0,0,0,0,0,0,0,0,0
-Guinea-Bissau,GNB,0,0,0,0,0,0,0,0,0,0
+Sierra Leone,SLE,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Georgia,GEO,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Lao People's Democratic Republic,LAO,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Denmark,DNK,zero,zero,zero,zero,1,zero,zero,zero,zero,zero
+Philippines,PHL,4,1,1,3,zero,2,2,1,1,2
+Morocco,MAR,zero,zero,zero,zero,zero,zero,zero,2,zero,zero
+Namibia,NAM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+French Polynesia,PYF,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Guinea-Bissau,GNB,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
 Thailand,THA,5,7,13,11,12,15,10,8,8,4
-Switzerland,CHE,0,0,0,0,0,0,2,0,0,1
-Grenada,GRD,0,0,0,0,0,0,0,0,0,0
-Åland Islands,ALA,0,0,0,0,0,0,0,0,0,0
-"Korea, North",PRK,0,0,0,0,0,1,0,1,0,0
-Seychelles,SYC,0,0,0,0,0,0,0,0,0,0
-"Tanzania, United Republic of",TZA,0,0,0,0,0,0,0,0,0,0
-Chad,TCD,0,0,0,0,0,0,0,0,0,0
-Estonia,EST,0,0,0,0,0,0,0,0,0,0
-Uruguay,URY,0,0,0,0,0,0,0,0,0,1
-Equatorial Guinea,GNQ,0,0,0,0,0,0,0,0,0,0
-Lebanon,LBN,0,0,0,0,0,0,1,0,1,0
+Switzerland,CHE,zero,zero,zero,zero,zero,zero,2,zero,zero,1
+Grenada,GRD,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Ã…land Islands,ALA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+"Korea, North",PRK,zero,zero,zero,zero,zero,1,zero,1,zero,zero
+Seychelles,SYC,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+"Tanzania, United Republic of",TZA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Chad,TCD,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Estonia,EST,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Uruguay,URY,zero,zero,zero,zero,zero,zero,zero,zero,zero,1
+Equatorial Guinea,GNQ,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Lebanon,LBN,zero,zero,zero,zero,zero,zero,1,zero,1,zero
 "Korea, South",KOR,161,194,311,206,211,168,147,185,132,103
-Svalbard and Jan Mayen,SJM,0,0,0,0,0,0,0,0,0,0
-Uzbekistan,UZB,0,0,0,0,0,0,0,0,0,0
-Egypt,EGY,0,1,1,0,1,0,3,1,1,1
-Falkland Islands (Malvinas),FLK,0,0,0,0,0,0,0,0,0,0
-Bermuda,BMU,0,0,0,0,0,0,0,0,0,0
-Timor-Leste,TLS,0,0,0,0,0,0,0,0,0,0
-Spain,ESP,0,0,1,0,0,0,0,0,1,0
-Colombia,COL,1,1,0,0,0,1,0,0,0,1
-Burundi,BDI,0,0,0,0,0,0,0,0,0,0
+Svalbard and Jan Mayen,SJM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Uzbekistan,UZB,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Egypt,EGY,zero,1,1,zero,1,zero,3,1,1,1
+Falkland Islands (Malvinas),FLK,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Bermuda,BMU,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Timor-Leste,TLS,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Spain,ESP,zero,zero,1,zero,zero,zero,zero,zero,1,zero
+Colombia,COL,1,1,zero,zero,zero,1,zero,zero,zero,1
+Burundi,BDI,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
 Taiwan,TWN,26,26,40,20,42,22,13,25,18,18
-Turks and Caicos Islands,TCA,0,0,0,0,0,0,0,0,0,0
-Barbados,BRB,0,0,1,0,0,0,0,0,0,0
-Madagascar,MDG,0,0,0,0,0,0,0,0,0,0
-Palau,PLW,0,0,0,0,0,0,0,0,0,0
-Bhutan,BTN,0,0,0,0,0,0,0,0,0,0
-Sudan,SDN,0,0,0,0,0,0,0,0,1,0
-Nepal,NPL,0,0,0,0,2,0,1,0,0,0
-Malta,MLT,0,0,0,0,0,0,0,0,0,0
-Netherlands,NLD,0,0,0,0,0,1,0,0,0,1
-Northern Mariana Islands,MNP,0,0,0,0,0,0,0,0,0,0
-Suriname,SUR,0,0,0,0,0,0,0,0,0,0
-Anguilla,AIA,0,0,0,0,0,0,0,0,0,0
-Venezuela,VEN,1,0,2,0,1,2,0,0,0,0
-Israel,ISR,0,0,1,0,0,0,0,1,1,0
-Réunion,REU,0,0,0,0,0,0,0,0,0,0
+Turks and Caicos Islands,TCA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Barbados,BRB,zero,zero,1,zero,zero,zero,zero,zero,zero,zero
+Madagascar,MDG,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Palau,PLW,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Bhutan,BTN,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Sudan,SDN,zero,zero,zero,zero,zero,zero,zero,zero,1,zero
+Nepal,NPL,zero,zero,zero,zero,2,zero,1,zero,zero,zero
+Malta,MLT,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Netherlands,NLD,zero,zero,zero,zero,zero,1,zero,zero,zero,1
+Northern Mariana Islands,MNP,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Suriname,SUR,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Anguilla,AIA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Venezuela,VEN,1,zero,2,zero,1,2,zero,zero,zero,zero
+Israel,ISR,zero,zero,1,zero,zero,zero,zero,1,1,zero
+RÃ©union,REU,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
 Indonesia,IDN,7,8,10,9,13,6,11,13,4,10
-Bouvet Island,BVT,0,0,0,0,0,0,0,0,0,0
-Iceland,ISL,0,0,0,0,0,0,0,0,0,0
-Zambia,ZMB,0,0,0,0,0,1,0,0,0,0
-Senegal,SEN,0,0,0,0,0,0,0,0,0,0
-Papua New Guinea,PNG,0,0,0,0,0,0,0,0,0,0
-Zimbabwe,ZWE,0,0,0,0,1,0,0,1,0,0
-Jordan,JOR,1,0,0,0,0,0,1,0,1,0
-Martinique,MTQ,0,0,0,0,0,0,0,0,0,0
-Kazakhstan,KAZ,4,0,0,0,7,6,3,0,2,0
-Poland,POL,1,0,0,0,0,0,0,1,0,0
-"Moldova, Republic of",MDA,0,0,0,0,0,0,0,0,0,0
-Djibouti,DJI,0,0,0,0,0,0,0,0,0,0
-Mauritania,MRT,0,0,0,0,0,0,0,0,0,0
-Kyrgyzstan,KGZ,0,0,0,0,1,0,0,0,0,0
-Saint Barthélemy,BLM,0,0,0,0,0,0,0,0,0,0
-Mayotte,MYT,0,0,0,0,0,0,0,0,0,0
-Iraq,IRQ,0,0,0,0,0,0,0,0,0,0
-Holy See (Vatican City State),VAT,0,0,0,0,0,0,0,0,0,0
-New Caledonia,NCL,0,0,0,0,0,0,0,0,0,0
-Andorra,AND,0,0,0,0,0,0,0,0,0,0
-British Indian Ocean Territory,IOT,0,0,0,0,0,0,0,0,0,0
-Trinidad and Tobago,TTO,0,0,0,0,1,0,0,0,0,0
-Latvia,LVA,0,0,0,0,0,0,0,0,0,0
-South Sudan,SSD,0,0,0,0,0,0,0,0,0,0
-Hungary,HUN,0,0,0,1,0,0,0,0,1,0
-Croatia,HRV,0,0,0,0,0,0,0,0,0,0
-Syria,SYR,0,0,0,0,1,0,0,0,0,0
-Guadeloupe,GLP,0,0,0,0,0,0,0,0,0,0
-Côte d'Ivoire,CIV,0,0,0,0,0,0,0,0,0,0
-Honduras,HND,0,0,1,0,1,0,0,0,0,0
-Mexico,MEX,2,0,2,2,0,0,1,6,2,2
-Tunisia,TUN,0,0,0,0,0,0,0,0,0,0
-Nicaragua,NIC,0,0,0,0,0,0,0,0,0,0
+Bouvet Island,BVT,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Iceland,ISL,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Zambia,ZMB,zero,zero,zero,zero,zero,1,zero,zero,zero,zero
+Senegal,SEN,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Papua New Guinea,PNG,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Zimbabwe,ZWE,zero,zero,zero,zero,1,zero,zero,1,zero,zero
+Jordan,JOR,1,zero,zero,zero,zero,zero,1,zero,1,zero
+Martinique,MTQ,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Kazakhstan,KAZ,4,zero,zero,zero,7,6,3,zero,2,zero
+Poland,POL,1,zero,zero,zero,zero,zero,zero,1,zero,zero
+"Moldova, Republic of",MDA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Djibouti,DJI,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Mauritania,MRT,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Kyrgyzstan,KGZ,zero,zero,zero,zero,1,zero,zero,zero,zero,zero
+Saint BarthÃ©lemy,BLM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Mayotte,MYT,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Iraq,IRQ,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Holy See (Vatican City State),VAT,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+New Caledonia,NCL,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Andorra,AND,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+British Indian Ocean Territory,IOT,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Trinidad and Tobago,TTO,zero,zero,zero,zero,1,zero,zero,zero,zero,zero
+Latvia,LVA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+South Sudan,SSD,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Hungary,HUN,zero,zero,zero,1,zero,zero,zero,zero,1,zero
+Croatia,HRV,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Syria,SYR,zero,zero,zero,zero,1,zero,zero,zero,zero,zero
+Guadeloupe,GLP,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+CÃ´te d'Ivoire,CIV,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Honduras,HND,zero,zero,1,zero,1,zero,zero,zero,zero,zero
+Mexico,MEX,2,zero,2,2,zero,zero,1,6,2,2
+Tunisia,TUN,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Nicaragua,NIC,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
 Singapore,SGP,16,14,20,15,9,24,16,19,21,15
-Serbia,SRB,0,0,0,1,0,0,0,0,0,0
-Comoros,COM,0,0,0,0,0,0,0,0,0,0
-United Kingdom,GBR,2,0,5,6,3,1,1,3,0,2
-Antarctica,ATA,0,0,0,0,0,0,0,0,0,0
-Congo,COG,0,0,0,0,0,0,0,0,0,0
-Sint Maarten (Dutch part),SXM,0,0,0,0,0,0,0,0,0,0
-Greece,GRC,0,1,0,1,0,0,1,0,0,0
-Paraguay,PRY,0,0,0,0,0,0,0,0,0,0
-French Guiana,GUF,0,0,0,0,0,0,0,0,0,0
-Botswana,BWA,0,0,0,0,0,0,0,0,0,0
+Serbia,SRB,zero,zero,zero,1,zero,zero,zero,zero,zero,zero
+Comoros,COM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+United Kingdom,GBR,2,zero,5,6,3,1,1,3,zero,2
+Antarctica,ATA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Congo,COG,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Sint Maarten (Dutch part),SXM,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Greece,GRC,zero,1,zero,1,zero,zero,1,zero,zero,zero
+Paraguay,PRY,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+French Guiana,GUF,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
+Botswana,BWA,zero,zero,zero,zero,zero,zero,zero,zero,zero,zero
