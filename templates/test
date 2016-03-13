@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<title>Student Enrollment Map</title>
+</head>
+
+<div class="container" id="main">
+	<h1>Enrollment by US States</h1>
+    <div id="map"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.16/d3.geo.projection.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.20/topojson.js"></script>
+<script src="../static/d3-geomap/js/d3.geomap.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	var map = d3.geomap.choropleth()
+		.geofile("../static/d3-geomap/topojson/countries/USA.json")
+		.projection(d3.geo.albersUsa)
+		.column('2006') //year
+		.unitId('fips') //state code
+		.scale(1000)
+		.legend(true);
+
+	d3.csv("../data/state-2009.csv", function(error, data) {
+		d3.select('#map')
+		.datum(data)
+		.call(map.draw, map);
+	});
+</script>
+
+
+<script src="http://d3js.org/d3.v2.js"></script>
+
+</html>
