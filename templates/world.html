@@ -20,13 +20,13 @@
     var map = d3.geomap.choropleth()
 	    .geofile('../static/d3-geomap/topojson/world/countries.json')
 	    .colors(colorbrewer.YlGnBu[5])
-	    .column("2006")
+	    .column("2015")
 	    .legend(true)
 	    .unitId('code')
 	    .domain([1,100])
 		.format(d3.format('f'));
 
-    d3.select('#slider7').call(d3.slider().axis(true).min(2006).max(2015).step(1).on("slide", function(evt, value) {
+    d3.select('#slider7').call(d3.slider().axis(true).min(2006).max(2015).step(1).value(2015).on("slide", function(evt, value) {
 
     $('#map').empty();
 

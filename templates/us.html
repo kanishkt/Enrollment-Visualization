@@ -27,7 +27,7 @@
 		.geofile("../static/d3-geomap/topojson/countries/USA.json")
 		.projection(d3.geo.albersUsa)
 		.colors(colorbrewer.YlGnBu[5])
-		.column('2006') //year
+		.column('2015') //year
 		.unitId('fips') //state code
 		.scale(1000)
 		.legend(true)
@@ -39,7 +39,7 @@
 		.datum(data)
 		.call(map.draw, map);
 	});
-    d3.select('#slider7').call(d3.slider().axis(true).min(2006).max(2015).step(1).on("slide", function(evt, value) {
+    d3.select('#slider7').call(d3.slider().axis(true).min(2006).max(2015).value(2015).step(1).on("slide", function(evt, value) {
 
     $('#map').empty();
 
