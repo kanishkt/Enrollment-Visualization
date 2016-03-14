@@ -98,6 +98,15 @@ def get_county_codes():
         county_codes[str(name).lower()] = str(cid)
     return county_codes
 
+def fix_county_json():
+    with open('static/d3-geomap/topojson/Illinois.json') as f:
+        data = json.load(f)
+    temp = data['objects']['illinois-counties']['geometries']
+    for county in temp:
+        cid = county['properties']['id']
+        county['id'] = cid
+    with open('static/d3-geomap/topojson/illinois-id.json', 'wb') as f:
+        json.dump(data, f)
 
 def condense_counties(country_codes):
     all_data = dict()
@@ -216,5 +225,6 @@ if __name__ == "__main__":
     # condense_states(state_codes)
     # condense_countries(country_codes)
 
-    county_codes = get_county_codes()
-    condense_counties(county_codes)
+    #county_codes = get_county_codes()
+    #condense_counties(county_codes)
+    fix_county_json()
