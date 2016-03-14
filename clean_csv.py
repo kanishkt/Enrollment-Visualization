@@ -97,7 +97,7 @@ def get_county_codes():
 def condense_counties(country_codes):
 	all_data = dict()
 	for county, code in county_codes.items():
-		all_data[county] = [code]
+		all_data[county.lower()] = [code]
 	row_one = ['county', 'code']
 
 	for year in range(2006, 2016):
@@ -115,11 +115,11 @@ def condense_counties(country_codes):
 				number = row[1]
 
 				all_data[county.lower()].append(number)
-				temp.append(county)
+				temp.append(county.lower())
 
 		for county in county_codes.keys():
-			if county not in temp:
-				all_data[county].append('0')
+			if county.lower() not in temp:
+				all_data[county.lower()].append('0')
 
 	with open('static/data/county-all.csv', 'wb') as f:
 		writer = csv.writer(f)
@@ -209,5 +209,5 @@ if __name__ == "__main__":
 	#condense_states(state_codes)
 	#condense_countries(country_codes)
 
-	#county_codes = get_county_codes()
-	#condense_counties(county_codes)
+	county_codes = get_county_codes()
+	condense_counties(county_codes)
