@@ -1,5 +1,6 @@
 import csv
 import collections
+import json
 
 def get_state_codes():
 	state_codes = dict()
@@ -82,6 +83,52 @@ def fix_countries(country_codes, year):
 			writer = csv.writer(f)
 			writer.writerows(temp)
 
+def get_county_codes():
+	county_codes = dict()
+	with open('static/d3-geomap/topojson/Illinois.json') as f:
+		data = json.load(f)
+	data = data['objects']['illinois-counties']['geometries']
+	for county in data:
+		name = county['properties']['NAME']
+		cid = county['properties']['id']
+		county_codes[str(name).lower()] = str(cid)
+	return county_codes
+
+def condense_counties(country_codes):
+	all_data = dict()
+	for county, code in county_codes.items():
+		all_data[county] = [code]
+	row_one = ['county', 'code']
+
+	for year in range(2006, 2016):
+		year = str(year)
+		row_one.append(year)
+		filename = 'static/data/county_data/county' + '-' + year + '.csv'
+		temp = list()
+		with open(filename, 'rb') as f:
+			next(f)
+			reader = csv.reader(f)
+			for row in reader:
+				county = row[0].strip()
+				if county == "":
+					print year
+				number = row[1]
+
+				all_data[county.lower()].append(number)
+				temp.append(county)
+
+		for county in county_codes.keys():
+			if county not in temp:
+				all_data[county].append('0')
+
+	with open('static/data/county-all.csv', 'wb') as f:
+		writer = csv.writer(f)
+		writer.writerow(row_one)
+		for country, values in all_data.items():
+			row = [country]
+			row.extend(values)
+			writer.writerow(row)
+
 def condense_states(state_codes):
 	all_data = dict()
 	for state, code in state_codes.items():
@@ -155,9 +202,12 @@ if __name__ == "__main__":
 	#for year in range(2006, 2016):
 		#fix_states(state_codes, str(year))
 
-	country_codes = get_country_codes()
+	#country_codes = get_country_codes()
 	#for year in range(2006, 2016):
 	#	fix_countries(country_codes, str(year))
 	
 	#condense_states(state_codes)
-	condense_countries(country_codes)
+	#condense_countries(country_codes)
+
+	#county_codes = get_county_codes()
+	#condense_counties(county_codes)
