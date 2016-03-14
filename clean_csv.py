@@ -119,7 +119,7 @@ def condense_counties(country_codes):
 
 		for county in county_codes.keys():
 			if county.lower() not in temp:
-				all_data[county.lower()].append('0')
+				all_data[county.lower()].append('zero')
 
 	with open('static/data/county-all.csv', 'wb') as f:
 		writer = csv.writer(f)
