@@ -19,7 +19,7 @@ def world():
 
 @app.route('/illinois')
 def illinois():
-    return render_template('illinois.html')
+    return render_template('illinois2.html')
     #return render_template('test.html')
 
 
