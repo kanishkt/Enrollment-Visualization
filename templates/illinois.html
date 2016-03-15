@@ -49,7 +49,7 @@ function makeMap(value){
 
 	//define quantize scale to sort data values into areas of color
 	var color = d3.scale.quantize()
-				.range([ "#ffffd9", "#edf8b1", "#c7e9b4", "#7fcdbb", "41b6c4", "1d91c0", "225ea8", "253494", "081d58"]);
+				.range(["#ffffe5", "#fff7bc", "#fee391", "#fec44f", "fe9929", "ec7014", "cc4c02", "993404", "662506"]);
 
 	//Create SVG
 	var svg = d3.select("#map")
@@ -75,7 +75,7 @@ function makeMap(value){
         .attr("transform", "translate(0,450)");
 
     var legend = d3.legend.color()
-        .labels(['1-50 students', '50-100 students', '100-150 students', '150-200 students', '200-250 students', '250-300 students', '300-350 students', '350-400 students', '>400 students'])
+        .labels(['1-112 students', '112-223 students', '223-334 students', '334-445 students', '445-556 students', '556-667 students', '667-778 students', '778-889 students', '>889 students'])
         .shapePadding(0)
         .scale(color)
         .ascending(true)
