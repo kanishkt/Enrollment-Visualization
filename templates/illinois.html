@@ -74,12 +74,12 @@ function makeMap(value){
         .attr("transform", "translate(0,450)");
 
     var legend = d3.legend.color()
-        .labels(['1 to 100 students', '100 to 200 students', '200 to 300 students', '300 to 400 students', '> 400 students'])
+        .labels(['1-50 students', '50-100 students', '100-150 students', '150-200 students', '200-250 students', '250-300 students', '300-350 students', '350-400 students', '>400 students'])
         .shapePadding(0)
         .scale(color)
         .ascending(true)
         .shapeWidth(17)
-        .shapeHeight(30);
+        .shapeHeight(20);
 
     svg.select(".legendQuant")
         .call(legend);
