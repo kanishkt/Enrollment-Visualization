@@ -39,7 +39,7 @@
 
     var map = d3.geomap.choropleth()
 	    .geofile('../static/d3-geomap/topojson/world/countries.json')
-	    .colors(colorbrewer.YlGnBu[9])
+	    .colors(colorbrewer.YlOrBr[9])
 	    .column(value)
 	    .legend(true)
 	    .unitId('code')

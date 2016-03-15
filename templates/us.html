@@ -50,7 +50,7 @@
    var map = d3.geomap.choropleth()
 		.geofile("../static/d3-geomap/topojson/countries/USA.json")
 		.projection(d3.geo.albersUsa)
-		.colors(colorbrewer.YlGnBu[9])
+		.colors(colorbrewer.YlOrBr[9])
 		.column(value) //year
 		.unitId('fips') //state code
 		.scale(1000)

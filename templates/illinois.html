@@ -61,7 +61,7 @@ function makeMap(value){
 	d3.csv("../static/data/county_data/county-"+value+".csv", function(data) {
 			//set input domain for color scale
 			color.domain ([
-				d3.min(data, function(d) {return +d[percent]; }), 500
+				d3.min(data, function(d) {return +d[percent]; }), 1000
 				//d3.max(data, function(d) {return +d[percent]; })
 				]);
 
@@ -111,9 +111,9 @@ function makeMap(value){
 		   			//if value exists...
 		   			console.log(value);
 		   			//this is really bad, fix the percentages
-		   			if (value > 499)
+		   			if (value > 999)
 		   			{
-		   				value = 499
+		   				value = 999
 		   			}
 
 		   			return color(value);
