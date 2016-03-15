@@ -1,72 +1,139 @@
 {% extends "layout.html" %}
+{% block head %}
+{% endblock %}
+
 {% block body %}
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.16/d3.geo.projection.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.20/topojson.js"></script>
-     <link href="../static/d3-geomap/css/d3.geomap.css" rel="stylesheet">
-     <link href="../static/css/bootstrap.css" rel="stylesheet">
+<script type="text/javascript" src="//d3js.org/d3.v3.min.js"></script>
      <link href="../static/css/d3.slider.css" rel="stylesheet">
      <script src="../static/js/d3.slider.js" type="text/javascript"></script>
-    <script src="../static/d3-geomap/js/d3.geomap.js" type="text/javascript"></script>
-     <script src="../static/js/bootstrap.min.js"></script>
-
-
-
-<div class="container" id="main">
-	<center><h2>New Freshmen Enrollment by State</h2></center>
-
-    <div id="slider7"></div>
-    <div id="map"></div>
-
-    <br>
-    </br>
+<center>
+<div id="container" id="main">
+	<h2>New Freshmen Enrollment by County</h2>
+	<div id="slider7" style="width: 1140px;"></div>
+	<div id="map"></div>
+    <div id="tooltip"></div>
+</div>
+</center>
 
 <script type="text/javascript">
-    var w = 400;
+
+    makeMap("2015");
+    d3.select('#slider7').call(d3.slider().axis(true).min(2006).max(2015).step(1).value("2015").on("slide", function(evt, value) {
+        $('#map').empty();
+        makeMap(value);
+
+}));
+
+function makeMap(value){
+        //crop revenue to map
+	var percent = "percent"
+
+	//Width and height
+	var w = 400;
 	var h = 640;
-    var map = d3.geomap.choropleth()
-		.geofile("../static/d3-geomap/topojson/illinois/illinois.json")
-		.projection(d3.geo.albers()
+	var padding = [ 20, 10, 30, 35 ];  //Top, right, bottom, left
+
+	//Define map projection
+	var projection = d3.geo.albers()
 				   	.center([ 6.5, 40 ])
 				  	.translate([ w/2, h/2 ])
-				  	.scale([ w * 15 ]))
-		.colors(colorbrewer.YlGnBu[5])
-		.column('2006') //year
-		.unitId('code') //state code
-		.scale(1000)
-		.legend(true)
-		.domain([1,100])
-		.format(d3.format('f'));
+				  	.scale([ w * 15 ]);
 
-	d3.csv("../static/data/county-all.csv", function(error, data) {
-		d3.select('#map')
-		.datum(data)
-		.call(map.draw, map);
-	});
-{#    d3.select('#slider7').call(d3.slider().axis(true).min(2006).max(2015).step(1).on("slide", function(evt, value) {#}
-{##}
-{#    $('#map').empty();#}
-{##}
-{#   var map = d3.geomap.choropleth()#}
-{#		.geofile("../static/d3-geomap/topojson/countries/USA.json")#}
-{#		.projection(d3.geo.albersUsa)#}
-{#		.colors(colorbrewer.YlGnBu[5])#}
-{#		.column(value) //year#}
-{#		.unitId('fips') //state code#}
-{#		.scale(1000)#}
-{#		.legend(true)#}
-{#		.domain([1,100])#}
-{#		.format(d3.format('f'));#}
-{##}
-{#	d3.csv("../static/data/state-all.csv", function(error, data) {#}
-{#		d3.select('#map')#}
-{#		.datum(data)#}
-{#		.call(map.draw, map);#}
-{#	});#}
-{##}
-{#}));#}
+	//Define path generator
+	var path = d3.geo.path()
+					 .projection(projection);
+
+	//define quantize scale to sort data values into areas of color
+	var color = d3.scale.quantize()
+				.range([ "#ffffcc", "#a1dab4", "#41b6c4", "#2c7fb8", "253494"]);
+
+	//Create SVG
+	var svg = d3.select("#map")
+				.append("svg")
+				.attr("width", w)
+				.attr("height", h);
+
+	//Load in revenue data
+	d3.csv("../static/data/county_data/county-"+value+".csv", function(data) {
+			//set input domain for color scale
+			color.domain ([
+				d3.min(data, function(d) {return +d[percent]; }), 500
+				//d3.max(data, function(d) {return +d[percent]; })
+				]);
+
+	var nameToPercent = {}
+	data.forEach(function(d){
+		nameToPercent[d.county.replace(/\s/g, '').toUpperCase()] = +d.percent
+	})
+	console.log(nameToPercent)
+	//Load in GeoJSON data
+	d3.json("../static/data/mapshaper_illinois.json", function(json)
+	{
+			json.features.forEach(function(d){
+				var name = d.properties.COUNTY_NAM
+				var dataValue = nameToPercent[name]
+				d.properties.percent = dataValue
+			})
+
+		//Bind data and create one path per GeoJSON feature
+		svg.selectAll("path")
+		   .data(json.features)
+		   .enter()
+		   .append("path")
+		   .attr("d", path)
+		   .attr("stroke", "black")
+		   .attr("stroke-width", .75 )
+		   .style("fill", function(d) {
+
+		   		//get data value
+		   		var value = d.properties.percent
+
+		   		if (value) {
+		   			//if value exists...
+		   			console.log(value);
+		   			//this is really bad, fix the percentages
+		   			if (value > 499)
+		   			{
+		   				value = 499
+		   			}
+
+		   			return color(value);
+		   		}
+
+		   	});
+
+
+		var tooltip = d3.select("#tooltip");
+
+		//Create tooltips
+		svg.selectAll("path")
+			.data(json.features)
+			.on("mouseover", function() {
+				return tooltip.style("visibility", "visible");
+			})
+			.on("mousemove", function(d) {
+
+				//debugger
+
+				tooltip.html('')
+
+				tooltip
+					.style("top", (d3.event.pageY + 16) + "px")
+					.style("left", (d3.event.pageX + 16) + "px")
+
+				tooltip
+					.append('div')
+					.text(d.properties.COUNTY_NAM + ": " + d.properties.percent)
+
+			})
+			.on("mouseout", function() {
+				return tooltip.style("visibility", "hidden");
+			})
+		}); //end d3.json()
+
+	}); //end d3.csv
+    }
+
 </script>
-
-
 {% endblock %}
