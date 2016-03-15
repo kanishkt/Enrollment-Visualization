@@ -23,6 +23,11 @@
     </br>
 
 <script type="text/javascript">
+    var format = function(d)
+    {
+        return d3.format('f')(d) + ' students';
+    }
+
     var map = d3.geomap.choropleth()
 		.geofile("../static/d3-geomap/topojson/countries/USA.json")
 		.projection(d3.geo.albersUsa)
@@ -32,7 +37,7 @@
 		.scale(1000)
 		.legend(true)
 		.domain([1,100])
-		.format(d3.format('f'));
+		.format(format);
 	d3.csv("../static/data/state-all.csv", function(error, data) {
 		d3.select('#map')
 		.datum(data)
@@ -49,7 +54,7 @@
 		.scale(1000)
 		.legend(true)
 		.domain([1,100])
-		.format(d3.format('f'));
+		.format(format);
 	d3.csv("../static/data/state-all.csv", function(error, data) {
 		d3.select('#map')
 		.datum(data)

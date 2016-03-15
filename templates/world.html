@@ -16,6 +16,10 @@
 <script src="../static/d3-geomap/js/d3.geomap.js" type="text/javascript"></script>
 
 <script type="text/javascript">
+    var format = function(d)
+    {
+        return d3.format('f')(d) + ' students';
+    }
 
     var map = d3.geomap.choropleth()
 	    .geofile('../static/d3-geomap/topojson/world/countries.json')
@@ -24,7 +28,7 @@
 	    .legend(true)
 	    .unitId('code')
 	    .domain([1,100])
-		.format(d3.format('f'));
+		.format(format);
 
     d3.select('#slider7').call(d3.slider().axis(true).min(2006).max(2015).step(1).value(2015).on("slide", function(evt, value) {
 
@@ -37,7 +41,7 @@
 	    .legend(true)
 	    .unitId('code')
 	    .domain([1,100])
-		.format(d3.format('f'));
+		.format(format);
     d3.csv('../static/data/country-all.csv', function(error, data) {
     d3.select('#map')
         .datum(data)
