@@ -33,16 +33,13 @@
 		.legend(true)
 		.domain([1,100])
 		.format(d3.format('f'));
-
 	d3.csv("../static/data/state-all.csv", function(error, data) {
 		d3.select('#map')
 		.datum(data)
 		.call(map.draw, map);
 	});
     d3.select('#slider7').call(d3.slider().axis(true).min(2006).max(2015).value(2015).step(1).on("slide", function(evt, value) {
-
     $('#map').empty();
-
    var map = d3.geomap.choropleth()
 		.geofile("../static/d3-geomap/topojson/countries/USA.json")
 		.projection(d3.geo.albersUsa)
@@ -53,13 +50,11 @@
 		.legend(true)
 		.domain([1,100])
 		.format(d3.format('f'));
-
 	d3.csv("../static/data/state-all.csv", function(error, data) {
 		d3.select('#map')
 		.datum(data)
 		.call(map.draw, map);
 	});
-
 }));
 </script>
 
